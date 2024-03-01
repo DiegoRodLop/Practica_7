@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Practica 6</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="navbar navbar-expand-lg bg-light" style="background-color: #18a2b7">
+                <a class="navbar-brand" href="#">
+                    <img class="AnimacionLogo" src="assets/images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse" id="navbarNav">
+                    <ul class="col-9 navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tutoriales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="formulario.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="tabla.html">Tabla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="control.html">Control de volumen</a>
+                        </li>
+                    </ul>
+                    <form class="col-3 d-flex justify-content-end" role="search">
+                        <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" id="buscar">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <nav id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/diseño.png" class="d-block w-100" alt="Imagen de una mano utilizando una tarjeta grafica">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/seo.png" class="d-block w-100" alt="Imagen mujer mirando por un telescopio">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/network.png" class="d-block w-100" alt="Un monton de chungos reunidos con cosas raras, parecidas ha agendas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </nav>
+        <section class="row justify-content-evenly m-2">
+            <article class="col-12 col-md-5 col-xl-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/factores.png" class="card-img-top" alt="...">
+                    <video id="medio1">
+                        <source src="assets/video/conejo_vid.mp4" type="video/mp4">
+                    </video>
+                    <audio id="medio1">
+                        <source src="assets/video/conejo_aud.mp3" type="audio/mp3">
+                    </audio>
+                    <div class="card-body">
+                        <h5 class="card-title">Factores claves para el SEO</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <a href="#" class="btn btn-primary">Leer mas</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-5 col-xl-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/contenido.png" class="card-img-top" alt="...">
+                    <video id="medio2">
+                        <source src="assets/video/conejo_vid.ogg" type="video/ogg">
+                    </video>
+                    <audio id="audio2">
+                        <source src="assets/video/conejo_aud.ogg" type="audio/ogg">
+                    </audio>
+                    <div class="card-body">
+                        <h5 class="card-title">Contenido incrustado</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <a href="#" class="btn btn-primary">Leer mas</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-12 col-md-5 col-xl-3">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/test.png" class="card-img-top" alt="...">
+                    <video id="medio3">
+                        <source src="assets/video/conejo_vid.webm" type="video/webm">
+                    </video>
+                    <audio id="audio3">
+                        <source src="assets/video/Audio_vid.mp3" type="audio/mp3">
+                        <source src="assets/video/Audio_vid.ogg" type="audio/ogg">
+                    </audio>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Test de verificacion HTML y herramientas utiles</p>
+                        <a href="#" class="btn btn-primary">Leer mas</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer class="navbar navbar-fixed-bottom">
+            <div class="col">
+                <h3>Enium.com</h3>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

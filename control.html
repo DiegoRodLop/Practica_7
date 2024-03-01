@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Control Video</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="navbar navbar-expand-lg bg-light" style="background-color: #18a2b7">
+                <a class="navbar-brand" href="#">
+                    <img class="AnimacionLogo" src="assets/images/logo.png" alt="Logo">
+                </a>
+                <ol class="breadcrumb col">
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Control de Volumen</li>
+                </ol>
+            </div>
+        </header>
+        <nav>
+            
+        </nav>
+        <section class="row justify-content-center m-2">
+            <article>
+                <video id="medio" width="700" height="350">
+                    <source src="assets/video/conejo_vid.mp4" type="video/mp4">
+                    <source src="assets/video/conejo_vid.ogg" type="video/ogg">
+                    <source src="assets/video/conejo_vid.webm" type="video/webm">
+                </video>
+                <audio id="audio">
+                    <source src="assets/video/conejo_aud.mp3" type="audio/mp3">
+                    <source src="assets/video/conejo_aud.ogg" type="audio/ogg">
+                </audio>
+            </article>
+            <article>
+                <input type="button" id="reiniciar" value="reiniciar">
+                <input type="button" id="retrasar" value="&laquo;">
+                <input type="button" id="play" value="&#9658;">
+                <input type="button" id="adelantar" value="&raquo;">
+                <input type="button" id="silenciar" value="silenciar">
+                <label>Volumen</label>
+                <input type="button" id="menosVolumen" value="-">
+                <input type="button" id="masVolumen" value="+">
+            </article>
+
+
+        </section>
+        <footer class="navbar navbar-fixed-bottom">
+            <div class="col">
+                <h3>Enium.com</h3>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/Script1.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

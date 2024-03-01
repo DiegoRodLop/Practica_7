@@ -1,0 +1,44 @@
+﻿body {
+   min-height:100vh;
+}
+header {
+    background-color: #4388cc;
+    padding: 20px;
+    height: 60px;
+    border: solid 1px;
+}
+section {
+
+}
+div .col-10 {
+    background-color: #ff6666;
+    padding: 20px;
+    height: 590px;
+    border: solid 1px;
+}
+div #verde {
+    background-color: #33ff33;
+    padding: 20px;
+    height: 120px;
+    border: solid 1px;
+}
+div #azul {
+    background-color: #3333ff;
+    padding: 20px;
+    height: 210px;
+    border: solid 1px;
+    margin-bottom: 10px;
+}
+div #marron {
+    background-color: #993300;
+    height: 260px;
+    border: solid 1px;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #4388cc;
+    padding: 20px;
+    height: 10px;
+    border: solid 1px;
+}
+
